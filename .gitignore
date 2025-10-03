@@ -1,0 +1,22 @@
+# Visual Studio cache
+aicd1/.vs/
+aicd1/*.suo
+aicd1/*.user
+aicd1/*.vcxproj*
+aicd1/*.sln
+
+# Build output
+aicd1/out/
+aicd1/build/
+aicd1/CMakeFiles/
+aicd1/CMakeCache.txt
+
+# Binary / Debug files
+aicd1/*.exe
+aicd1/*.dll
+aicd1/*.lib
+aicd1/*.pdb
+aicd1/*.obj
+aicd1/*.ipch
+aicd1/*.ilk
+aicd1/*.log
