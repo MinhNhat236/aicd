@@ -19,4 +19,8 @@ public:
 	~Matrix();
 	Matrix& operator=(const Matrix& other);
 	T& operator()(const int row, const int col);
+	Matrix<T> operator+(const Matrix<T>& other) const;
+	Matrix<T> operator-(const Matrix<T>& other) const;
+	Matrix<T> operator*(const Matrix<T>& other) const;
+	const T& operator()(int r, int c) const;
 };
